@@ -1,5 +1,6 @@
 :root {
   --primary-color: #fefee3;
+  --sage-color: #a2a785;
   --heading-text: "Amatic SC", cursive;
   --plain-text: "Quicksand", sans-serif;
 }
@@ -16,6 +17,7 @@ h2 {
 
 h3 {
   font-family: var(--plain-text);
+  color: var(--sage-color);
 }
 
 p {
@@ -27,7 +29,7 @@ p {
   background-color: var(--primary-color);
   text-align: center;
   padding: 200px;
-  border: dashed black;
+  border: dashed var(--sage-color);
 }
 
 .about-text {
@@ -35,7 +37,7 @@ p {
 }
 
 .border-dashed {
-  border: dashed var(--primary-color);
+  border: solid var(--sage-color);
 }
 
 @media (max-width: 1000px) {
