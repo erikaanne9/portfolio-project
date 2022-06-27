@@ -32,7 +32,8 @@ p {
   border: dashed var(--sage-color);
 }
 
-.about-text {
+.about-text h2,
+.about-text p {
   margin: 100px 50px;
 }
 
@@ -41,8 +42,8 @@ p {
 }
 
 .about-me-content h1,
-h2,
-p {
+.about-me-content h2,
+.about-me-content p {
   margin: 40px 400px;
 }
 
@@ -97,16 +98,16 @@ p {
     font-size: 45px;
   }
   .about-me-content h1,
-  h2,
-  p {
+  .about-me-content h2,
+  .about-me-content p {
     margin: 20px 10px;
   }
 }
 
 @media (max-width: 1355px) {
   .about-me-content h1,
-  h2,
-  p {
+  .about-me-content h2,
+  .about-me-content p {
     margin: 20px 10px;
   }
 }
