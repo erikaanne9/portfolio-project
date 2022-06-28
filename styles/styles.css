@@ -34,7 +34,11 @@ p {
 
 .about-text h2,
 .about-text p {
-  margin: 100px 50px;
+  margin: 80px 30px 0px 40px;
+}
+
+.about-text p {
+  margin: 40px 30px 5px 40px;
 }
 
 .border-dashed {
@@ -74,6 +78,12 @@ p {
   .about-text {
     text-align: center;
     margin: 0;
+  }
+  .about-text p {
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
   }
   .hero {
     padding: 80px 0;
