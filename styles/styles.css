@@ -110,6 +110,35 @@ nav li.active a {
   margin: 20px auto;
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: var(--plain-text);
+}
+
+footer .email-link:hover {
+  color: var(--sage-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--sage-color);
+  background-color: rgba(217, 235, 220, 0.3);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--sage-color);
+}
+
 @media (max-width: 1000px) {
   .about-text {
     text-align: center;
